@@ -1,0 +1,7 @@
+SELECT TOP (1000) [IdFactura]
+      ,[Fecha]
+      ,[Cliente]
+      ,[Subtotal]
+      ,[Impuesto]
+      ,[Total]
+  FROM [ExpressoAmericanoDB].[dbo].[Facturas]
